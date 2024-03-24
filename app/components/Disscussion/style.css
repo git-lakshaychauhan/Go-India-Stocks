@@ -1,0 +1,14 @@
+.effect2:hover {
+  transform: scale(1.01, 1.03);
+  transition: all 0.3s;
+}
+.heart {
+  font-size: 24px;
+  color: #000;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.heart.liked {
+  color: red;
+}

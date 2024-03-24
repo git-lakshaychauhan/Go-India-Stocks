@@ -1,0 +1,25 @@
+.effect:hover {
+  transform: scale(1.07, 1.09);
+  transition: all 0.3s;
+}
+
+@media screen and (max-width: 768px) {
+  .fix {
+    width: 40% !important;
+  }
+}
+@media screen and (max-width: 600px) {
+  .fix {
+    width: 50% !important;
+  }
+}
+@media screen and (max-width: 500px) {
+  .fix {
+    width: 60% !important;
+  }
+}
+@media screen and (max-width: 400px) {
+  .fix {
+    width: 70% !important;
+  }
+}
