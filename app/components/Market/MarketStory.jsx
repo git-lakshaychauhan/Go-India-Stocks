@@ -23,10 +23,10 @@ const MarketStory = ({ mark }) => {
             height: "5rem",
           }}
         >
-          <div className="title text-left text-lg max-[915px]:text-sm font-bold ">
+          <div className="title text-left text-lg adjusttext font-bold ">
             {mark.title}
           </div>
-          <div className="description text-left text-sm max-[915px]:text-xs">
+          <div className="description text-left adjusttext text-sm ">
             {mark.desc}
           </div>
         </div>

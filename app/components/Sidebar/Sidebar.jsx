@@ -48,7 +48,7 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
           className="menu-content"
           initial={{ x: -100 }}
           animate={{ x: 0 }}
-          transition={{ type: "linear", duration: 0.3 }}
+          transition={{ type: "linear", duration: 0.2 }}
         >
           <div className="menu-top pb-10 flex items-center justify-center gap-2 md:gap-2 sm:px-2 mb-[5rem] pt-10 border-b-4 border-b-gray-400 hover:cursor-pointer text-xs md:text-lg  ">
             <div className="user flex items-center justify-center md:gap-[0.3rem] ">

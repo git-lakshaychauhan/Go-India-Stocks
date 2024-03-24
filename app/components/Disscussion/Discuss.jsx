@@ -9,10 +9,11 @@ const Discuss = ({ val }) => {
   };
 
   return (
-    <div className={`h-[10rem] w-[100%] mb-[3rem]  `}>
+    <div className={`h-[10rem] w-[100%] md:mb-[3rem] sm:mb-[1.5rem]  `}>
       <div
-        className="max-[550px]:p-[0.2rem] p-[1rem] bg-white shadow-lg max-[900px]:text-[0.7rem]  max-[850px]:text-[0.5rem] max-[575px]:text-sm  max-[400px]:text-xs   max-[500px]:p-[0.1rem ] 
-       max-[785px]:text-[0.7rem] effect2"
+        className=" p-[1rem] bg-white shadow-lg text   
+        ] 
+        effect2 "
       >
         <div className="top flex items-center justify-between max-[900px]:gap-[0.5rem] max-[400px]:gap-[0]">
           <div className="left-top flex gap-[2rem] max-[1050px]:gap-[0.5rem] max-[530px]:gap-[0.5rem] mb-[1rem] max-[765px]:mb-[0.5rem] items-center justify-between">
