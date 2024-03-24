@@ -12,3 +12,34 @@
 .heart.liked {
   color: red;
 }
+
+@media screen and (max-width: 900px) {
+  .text {
+    font-size: 0.9rem;
+  }
+}
+@media screen and (max-width: 830px) {
+  .text {
+    font-size: 0.78rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .text {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  .text {
+    font-size: 0.8rem;
+  }
+}
+@media screen and (max-width: 400px) {
+  .text {
+    font-size: 0.75rem;
+  }
+}
+@media screen and (max-width: 380px) {
+  .text {
+    font-size: 0.6rem;
+  }
+}
